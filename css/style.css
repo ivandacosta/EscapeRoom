@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* Seccion del TEXTO  */
+.promo {
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+   
+}
+
+.promo h1 {
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: 0px solid white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+button a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition: all 1s;
+}
+
+button a:hover {
+    color: red;
+    font-size: 45px;
+}
+
+/* Video y Efecto */
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+}
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+/* --------------------------- */
+/* Header */
+.logo img {
+    
+    height: 100px;
+}
+
+header {
+    background-color: rgb(15, 15, 15);
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    /* margin: 50px 30px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu ul li a {
+    /* list-style: none; */
+    text-decoration: none;
+    color: rgb(155, 25, 25);
+    font-size: 30px;
+    transition: all 1s;
+    font-family: 'Oswald', sans-serif;
+}
+
+.menu ul li a:hover {
+    /* list-style: none; */
+    /* font-size: 40px; */
+    color: red;
+}
+
+.menu ul li {
+    padding: 10px;
+    display: inline;
+}
+/* --------------------------- */
+
+body {
+    background-color: beige;
+    /* background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+
+/* --------------------------- */
+
+/* ---------------main---------------- */
+
+.contenedor_card {
+    margin: auto auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+    
+}
+
+h2 {
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    transition: all 1s;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2:hover {
+    color: red;
+}
+/* ---------Juegos--------------- */
+.card {
+    background-color: #212529;
+    color: white;
+}
+
+.contain_cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.contain_cards .card{
+    margin:auto;
+    
+}
+
+.card-body h2{
+    font-size: 40px;
+}
+
+.animate__backInLeft {
+    animation: animate__backInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+/* ---------------------------------- */
