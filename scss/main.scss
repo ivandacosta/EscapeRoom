@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@import "vars";
+
+.vistamobile {
+    display: none;
+}
+
+body {
+    background-color: #0f0f0f;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: #0f0f0f;
+}
+
+h2 {
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* --------Mobile----------- */
+
+@media screen and (max-width: 768px) {
+    .vistamobile {
+        display: contents;
+    }
+    .vistaescritorio {
+        display: none;
+    }
+
+    .navbar-brand h2{
+        font-size: 25px;
+        color: whitesmoke;
+        font-family: 'Oswald', sans-serif;
+        
+    }
+
+    .navbar {
+        background-color: #0e0e0e;
+    }
+}
+
+/*-----------Index-----------------*/
+
+.promo {
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    h1 {
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+    }
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    border: 0px solid white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.boton_inicio {
+    a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition: all 1s;
+    }
+    a:hover{
+    color: red;
+    font-size: 45px;
+    }    
+    }
+
+/* Video y Efecto */
+#hero{
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+/* --------menu----------- */
+
+.menu {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #0e0e0e;
+    li {
+        padding: 15px;
+        display: inline;
+    }
+    a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    transition: all 1s;
+    }
+    a:hover {
+        color: red;
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #0e0e0e;
+    img{ 
+        height: 150px;
+    }
+}
+
+/* ---------SECCION 1-------------- */
+.contenedor_card {
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+}
+
+.card {
+    background-color: $bgcolorprimario;
+    color: white;
+}
+
+.contain_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;   
+    .card {
+        margin: auto;
+    }
+}
+
+.card-body h2{
+    font-size: 40px;
+}
+
+.contenedorhome {
+    width: auto;
+    height: 100px;
+    /* background-color: rgb(220 53 69); */
+    color: white;
+    text-align: center;    
+}
+
+#context{
+    h2 {
+    padding: 20px;
+    font-size: 50px;
+    }
+}
+
+.colfesteja {
+    margin: auto;
+    p {
+        color: white;
+    }
+}
+
+.container_happybday {
+    margin: auto;
+    padding: 100px;
+}
+
+
+/* --------JUEGOS------------ */
+.card {
+    background-color: $bgcolorprimario;
+    color: white;
+}
+
+.itemcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    
+}
+
+.contain_cards{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+ .card {
+    margin:auto;
+    }
+}
+
+
+.card-body h2{
+    font-size: 40px;
+}
+
+.contain_cards {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+button {
+    a {    
+    color: white;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: $bgcolorprimario;
+    p {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0px 30px;
+    }
+}
+
+.ubication {
+    text-align: center;
+    i{
+        padding: 0px 10px;
+        color: white;
+    }
+}

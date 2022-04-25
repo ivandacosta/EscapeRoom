@@ -4,69 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="description" content="Juegos de escape, escape room.">
+    <meta name="keywords" content="escape, room, games, juegos,">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- G fonts -->
     <!-- G fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Home</title>
+    <title>Document</title>
 </head>
 <body>
+
     <header>
 
-        <div class="logo">
+        <div class="vistamobile">
+
+          <nav class="navbar navbar-expand-sm navbar-dark ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- logo -->
+            <a class="navbar-brand" href="#">
+              <img src="../img/logo4.jpg" alt="" width="100px">
+            </a>
+            
+            <!-- enlaces -->
+            <div class="collapse navbar-collapse" id="opciones">   
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Juegos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>            
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+        <div class="vistaescritorio">
+          <div class="logo">
             <img src="../img/logo4.jpg" alt="">
         </div>
-    <nav class="menu">
-        <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./juegos.html">Juegos</a></li>
-                <!-- <li><a href="#">Contacto</a></li>
-                <li><a href="#">Contacto</a></li> -->
-            </ul>
-        </nav>
-    </header>
-    <div class="text_games">
-        <h2>Juegos disponibles</h2>
-    </div>
-    <div class="contain_cards">
+        <nav class="menu">
+            <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./juegos.html">Juegos</a></li>
+            <li><a href="#">Reglas</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+        </div>
+      </header>
 
-        <div class="card" style="width: 40%">
-            <img class="card-img-top" src="../img/juego.jpeg" alt="Card image cap">
-  <div class="card-body">
-      <h2>Subte sin frenos</h2>
-      <p class="card-text">El subte se dirige al destino final, que es la muerte si nadie para el tren. Deberan entrar a la cabina para poder frenarlo. Encuentra la llave!</p>
+      <div class="contenedorhome">
+        <div id="context">
+          <h2>Juegos disponibles</h2>
+        </div>
+      </div>
+
+    <section class="contain_cards">
+        <div class="itemcards">
+            <div class="card" style="width: 35%">
+                <img class="card-img-top" src="../img/juego.jpeg" alt="Card image cap">
+      <div class="card-body">
+          <h2>Subte sin frenos</h2>
+          <p class="card-text">El subte se dirige al destino final, que es la muerte si nadie para el tren. Deberan entrar a la cabina para poder frenarlo. Encuentra la llave!</p>
+        </div>
+        <button type="button" class="btn btn-danger"><a href="./contacto.html">Reseva ahora</a></button>
     </div>
-    <button type="button" class="btn btn-danger">Reserva ahora</button>
+    
+    <div class="card" style="width: 35%">
+        <img class="card-img-top" src="../img/juego2.jpg" alt="Card image cap">
+<div class="card-body">
+<h2>Laberinto sin salida</h2>
+  <p class="card-text">Deberas encontrar la alternativa para poder salir de el. La salida no es el camino, sino tus habilidades para escapar.</p>
 </div>
-        <div class="card" style="width: 40%">
-            <img class="card-img-top" src="../img/juego2.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h2>Laberinto sin salida</h2>
-      <p class="card-text">Deberas encontrar la alternativa para poder salir de el. La salida no es el camino, sino tus habilidades para escapar.</p>
-    </div>
-    <button type="button" class="btn btn-danger">Reserva ahora</button>
-</div>
-        <div class="card" style="width: 40%">
-            <img class="card-img-top" src="../img/juego3.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h2>La azotea</h2>
-      <p class="card-text">Una azotea pequeña con poco oxigeno, sin escalera, deberas encontrar la alternativa con tus compañeros para poder salir por el techo.</p>
-    </div>
-    <button type="button" class="btn btn-danger">Reserva ahora</button>
-</div>
-        <div class="card" style="width: 40%">
-            <img class="card-img-top" src="../img/juego4.jpg" alt="Card image cap">
-  <div class="card-body">
-    <h2>Corredor de la muerte</h2>
-      <p class="card-text">Deberas encontrar la salida por el corredor de la muerte, pasillos sin fin con mucha oscuridad. Tienes 50 minutos para salir</p>
-      
-    </div>
-    <button type="button" class="btn btn-danger">Reserva ahora</button>
+<button type="button" class="btn btn-danger"><a href="./contacto.html">Reseva ahora</a></button>
 </div>
 
+<div class="card" style="width: 35%">
+    <img class="card-img-top" src="../img/juego3.jpg" alt="Card image cap">
+<div class="card-body">
+<h2>La azotea</h2>
+<p class="card-text">Una azotea pequeña con poco oxigeno, sin escalera, deberas encontrar la alternativa con tus compañeros para poder salir por el techo.</p>
+</div>
+<button type="button" class="btn btn-danger"><a href="./contacto.html">Reseva ahora</a></button>
 </div>
 
+<div class="card" style="width: 35%">
+    <img class="card-img-top" src="../img/juego4.jpg" alt="Card image cap">
+<div class="card-body">
+<h2>Corredor de la muerte</h2>
+<p class="card-text">Deberas encontrar la salida por el corredor de la muerte, pasillos sin fin con mucha oscuridad. Tienes 50 minutos para salir</p>
+
+</div>
+<button type="button" class="btn btn-danger"><a href="./contacto.html">Reseva ahora</a></button>
+</div>
+    </section>
+
+    <footer>
+    </div>
+    <div class="row">
+      <div class="col" style="height: auto;">
+        <p class="ubication">Ubicacion </p>
+        <p class="ubication">Av Federico Lacroze 4900 </p>
+      </div>
+      <div class="col">
+        <p class="ubication">Nuestras redes </p>
+        <p class="ubication"><a href=""><i class="fa-brands fa-twitter"></i><a href=""><i class="fa-brands fa-facebook"></i></a></a><a href=""><i class="fa-brands fa-instagram"></i></a></p>
+      </div>
+      <div class="col">
+        <p class="ubication"> &copy;Derechos reservados </p>
+        <p class="ubication"><i class="fa-solid fa-hashtag"></i>EscapeRoom</p>
+      </div>
+    </div>
+  </div>
+    </footer>
+
+    <!-- ----------------------------------------------------- -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
 </body>
 </html>
+</body>
+</html>
+
+
+
+
