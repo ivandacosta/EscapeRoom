@@ -5,7 +5,9 @@
     
 }
 
+
 @import "vars";
+@import "animate.css";
 
 .vistamobile {
     display: none;
@@ -26,9 +28,6 @@ h2 {
     text-align: center;
 }
 
-p {
-    color: white;
-}
 
 /* --------Mobile----------- */
 
@@ -161,7 +160,7 @@ video {
 }
 
 .card {
-    background-color: $bgcolorprimario;
+    background-color: $bgcard;
     color: white;
 }
 
@@ -204,11 +203,17 @@ video {
     margin: auto;
     padding: 100px;
 }
-
+/* --------CONTACTO------------ */
+.container {
+    margin-bottom: 30px;
+}
+label {
+    color: black;
+}
 
 /* --------JUEGOS------------ */
 .card {
-    background-color: $bgcolorprimario;
+    background-color: $bgcard;
     color: white;
 }
 
@@ -317,7 +322,28 @@ button {
   padding: 5px;
 }
 
+.columnt {
+    background-color: #1c1c1d;
+    box-shadow: 1px 1px 10px $bgcolorprimario;
+    p {
+        color: white;
+        font-size: 25px;
+    }
+    h2 {
+        text-shadow: 1px 1px 4px $bgcolorprimario;
+        font-size: 40px;
+    }
+}
 
+.animate__backInLeft {
+    animation: animate__backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.animate__backInRight {
+    animation: animate__backInRight;
+    animation-duration: 2s;
+}
 /* --------Footer----------- */
 footer {
     background-color: $bgcolorprimario;

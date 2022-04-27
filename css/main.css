@@ -1,8 +1,8 @@
+@import "animate.css";
 @import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -23,10 +23,6 @@ h2 {
   padding: 30px;
   color: white;
   text-align: center;
-}
-
-p {
-  color: white;
 }
 
 /* --------Mobile----------- */
@@ -52,28 +48,18 @@ p {
 /*-----------Index-----------------*/
 .promo {
   padding-top: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   width: 70%;
   margin: auto;
   position: relative;
   z-index: 2;
 }
-
 .promo h1 {
   font-family: "Permanent Marker", cursive;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 70px;
 }
 
@@ -88,10 +74,8 @@ button {
   text-decoration: none;
   font-size: 30px;
   color: white;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
-
 .boton_inicio a:hover {
   color: red;
   font-size: 45px;
@@ -109,7 +93,6 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -127,43 +110,30 @@ video {
 /* --------menu----------- */
 .menu {
   padding: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   background-color: #0e0e0e;
 }
-
 .menu li {
   padding: 15px;
   display: inline;
 }
-
 .menu a {
   color: white;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
   font-size: 30px;
-  -webkit-transition: all 1s;
   transition: all 1s;
 }
-
 .menu a:hover {
   color: red;
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   background-color: #0e0e0e;
 }
-
 .logo img {
   height: 150px;
 }
@@ -172,29 +142,22 @@ video {
 .contenedor_card {
   margin: auto;
   padding: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 30px;
   width: 80%;
 }
 
 .card {
-  background-color: #4a3adf;
+  background-color: #1c1c1d;
   color: white;
 }
 
 .contain_cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 30px;
 }
-
 .contain_cards .card {
   margin: auto;
 }
@@ -219,7 +182,6 @@ video {
 .colfesteja {
   margin: auto;
 }
-
 .colfesteja p {
   color: white;
 }
@@ -229,31 +191,32 @@ video {
   padding: 100px;
 }
 
+/* --------CONTACTO------------ */
+.container {
+  margin-bottom: 30px;
+}
+
+label {
+  color: black;
+}
+
 /* --------JUEGOS------------ */
 .card {
-  background-color: #4a3adf;
+  background-color: #1c1c1d;
   color: white;
 }
 
 .itemcards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 30px;
 }
 
 .contain_cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding: 30px;
 }
-
 .contain_cards .card {
   margin: auto;
 }
@@ -263,11 +226,7 @@ video {
 }
 
 .contain_cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   padding: 30px;
 }
@@ -294,15 +253,10 @@ button a {
 }
 
 .team {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   width: auto;
   text-align: center;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 100px;
 }
@@ -319,7 +273,7 @@ button a {
 }
 
 .team .team_member h3 {
-  color: #4a3adf;
+  color: rgb(74, 58, 223);
   font-size: 26px;
   margin-top: 50px;
 }
@@ -335,7 +289,6 @@ button a {
   position: absolute;
   top: -50px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 100px;
   height: 100px;
@@ -349,11 +302,35 @@ button a {
   padding: 5px;
 }
 
-/* --------Footer----------- */
-footer {
-  background-color: #4a3adf;
+.columnt {
+  background-color: #1c1c1d;
+  box-shadow: 1px 1px 10px rgb(74, 58, 223);
+}
+.columnt p {
+  color: white;
+  font-size: 25px;
+}
+.columnt h2 {
+  text-shadow: 1px 1px 4px rgb(74, 58, 223);
+  font-size: 40px;
 }
 
+.animate__backInLeft {
+  animation: animate__backInLeft;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+
+.animate__backInRight {
+  animation: animate__backInRight;
+  animation-duration: 2s;
+}
+
+/* --------Footer----------- */
+footer {
+  background-color: rgb(74, 58, 223);
+}
 footer p {
   color: white;
   font-weight: 700;
@@ -364,7 +341,6 @@ footer p {
 .ubication {
   text-align: center;
 }
-
 .ubication i {
   padding: 0px 10px;
   color: white;

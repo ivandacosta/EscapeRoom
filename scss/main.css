@@ -25,10 +25,6 @@ h2 {
   text-align: center;
 }
 
-p {
-  color: white;
-}
-
 /* --------Mobile----------- */
 @media screen and (max-width: 768px) {
   .vistamobile {
@@ -180,7 +176,7 @@ video {
 }
 
 .card {
-  background-color: #4a3adf;
+  background-color: #1c1c1d;
   color: white;
 }
 
@@ -227,9 +223,18 @@ video {
   padding: 100px;
 }
 
+/* --------CONTACTO------------ */
+.container {
+  margin-bottom: 30px;
+}
+
+label {
+  color: black;
+}
+
 /* --------JUEGOS------------ */
 .card {
-  background-color: #4a3adf;
+  background-color: #1c1c1d;
   color: white;
 }
 
@@ -345,6 +350,31 @@ button a {
   width: 100px;
   height: 100px;
   padding: 5px;
+}
+
+.columnt {
+  background-color: #1c1c1d;
+  -webkit-box-shadow: 1px 1px 10px #4a3adf;
+          box-shadow: 1px 1px 10px #4a3adf;
+}
+
+.columnt p {
+  color: white;
+  font-size: 25px;
+}
+
+.columnt h2 {
+  text-shadow: 1px 1px 4px #4a3adf;
+  font-size: 40px;
+}
+
+.animate__backInLeft {
+  -webkit-animation: animate__backInLeft;
+          animation: animate__backInLeft;
+  /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
 /* --------Footer----------- */
