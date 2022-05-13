@@ -344,6 +344,23 @@ button {
     animation: animate__backInRight;
     animation-duration: 2s;
 }
+
+/* --------Footer----------- */
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    // flex-wrap: wrap;
+    .ubi {
+        color: white;
+        margin: auto auto;
+        h3{
+            margin: auto auto;
+        }
+    }
+}
+
 /* --------Footer----------- */
 footer {
     background-color: $bgcolorprimario;

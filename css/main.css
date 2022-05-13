@@ -328,6 +328,21 @@ button a {
 }
 
 /* --------Footer----------- */
+.ubicacion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.ubicacion .ubi {
+  color: white;
+  margin: auto auto;
+}
+.ubicacion .ubi h3 {
+  margin: auto auto;
+}
+
+/* --------Footer----------- */
 footer {
   background-color: rgb(74, 58, 223);
 }
