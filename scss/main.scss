@@ -174,7 +174,7 @@ video {
 }
 
 .card-body h2{
-    font-size: 40px;
+    font-size: 1em;
 }
 
 .contenedorhome {
@@ -236,7 +236,10 @@ label {
 
 
 .card-body h2{
-    font-size: 40px;
+    margin: auto;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
 }
 
 .contain_cards {
