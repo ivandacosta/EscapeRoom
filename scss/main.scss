@@ -366,6 +366,10 @@ button {
 
 /* --------Footer----------- */
 footer {
+    .row{
+        max-width: 98%;
+    }
+    // max-width: 98%;
     background-color: $bgcolorprimario;
     p {
     color: white;

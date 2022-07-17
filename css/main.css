@@ -30,17 +30,14 @@ h2 {
   .vistamobile {
     display: contents;
   }
-
   .vistaescritorio {
     display: none;
   }
-
   .navbar-brand h2 {
     font-size: 25px;
     color: whitesmoke;
     font-family: "Oswald", sans-serif;
   }
-
   .navbar {
     background-color: #0e0e0e;
   }
@@ -321,11 +318,9 @@ button a {
 
 .animate__backInLeft {
   -webkit-animation: animate__backInLeft;
-          animation: animate__backInLeft;
-  /* referring directly to the animation's @keyframe declaration */
+          animation: animate__backInLeft; /* referring directly to the animation's @keyframe declaration */
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  /* don't forget to set a duration! */
+          animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .animate__backInRight {
@@ -353,6 +348,9 @@ button a {
 /* --------Footer----------- */
 footer {
   background-color: rgb(74, 58, 223);
+}
+footer .row {
+  max-width: 98%;
 }
 footer p {
   color: white;
